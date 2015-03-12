@@ -1,0 +1,31 @@
+﻿html { 
+     background: url(/images/SDSLogo.jpg) no-repeat center center fixed; 
+     -webkit-background-size: cover;
+     -moz-background-size: cover;
+     -o-background-size: cover;
+     background-size: cover;
+}
+div {
+    width: 100%;
+    margin-top: 60px;
+    text-align: center;
+}
+#Users {
+    width: 113px;
+    margin-right: 60px;
+    background-color: red;
+}
+#Games {
+    width: 113px;
+    margin-right: 30px;
+    background-color: red;
+}
+#HighScores {
+    width: 113px;
+    margin-right: 30px;
+    background-color: red;
+}
+h1 {
+    color: green;
+    text-align: center;
+}
