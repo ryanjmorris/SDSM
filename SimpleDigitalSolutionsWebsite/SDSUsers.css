@@ -1,0 +1,70 @@
+﻿html { 
+     background: url(/images/users.jpg) no-repeat center center fixed; 
+     -webkit-background-size: cover;
+     -moz-background-size: cover;
+     -o-background-size: cover;
+     background-size: cover;
+}
+div {
+    display: inline-block;
+}
+div#Menu {
+    width: 100%;
+    margin-top: 30px;
+    text-align: center;
+}
+#Home {
+    width: 113px;
+    margin-right: 30px;
+    background-color: tan;
+}
+#Games {
+    width: 113px;
+    margin-right: 30px;
+    background-color: tan;
+}
+#HighScores {
+    width: 113px;
+    background-color: tan;
+}
+h1 {
+    color: Black;
+    text-align: center;
+}
+div#Users {
+    height: 90px;
+    width: 100.0000%;
+}
+#CUsers {
+    float: left;
+    margin-left: 28.0000%;
+    margin-top: 50px;
+    font-size: 25px;
+    font-weight: bold;
+}
+#PUsers {
+    float: left;
+    margin-left: 22.5000%;
+    margin-top: 50px;
+    font-size: 25px;
+    font-weight: bold;
+}
+#GroupGrid {
+    width: 100.0000%;
+}
+div#Grid{
+    width: 26.0000%;
+    margin-left: 21.0000%;
+    text-align: center;
+}
+table#GridView1 {
+    background-color: #DEB887;
+}
+table#GridView2 {
+    background-color: #DEB887;
+}
+div#Grid2{
+    float: right;
+    text-align: center;
+    margin-right: 25.0000%;
+}
