@@ -1,0 +1,50 @@
+﻿body {
+    background-color: #585858;
+}
+
+#halfway
+{
+    margin-bottom: 12.5%;
+}
+
+#header
+{
+    font-family: Arial, 'Times New Roman', sans-serif;
+    font-size: 20px;
+}
+
+#links
+{
+    margin-top: 15%;
+    font-family: Arial, 'Times New Roman', sans-serif;
+    text-align: center;
+    color: white;
+    height: 433px;
+    
+}
+
+#picBehind
+{
+    background-image: url(HomeImage.png);
+    margin-left: 30%;
+    margin-right: 25%;
+    height: 509px;
+    width: 45%;
+}
+
+.indexButton
+{
+    
+    width: 30%;
+    height: 50px;
+    font-family: Arial, 'Times New Roman', sans-serif;
+    font-size: 15px;
+    color: white;
+    background-color: #187bc6;
+    outline: none;
+}
+
+.indexButton:hover
+{
+    background-color: #1c9cf1;
+}
