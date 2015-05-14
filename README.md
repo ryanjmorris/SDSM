@@ -1,6 +1,7 @@
 # Simple Digital Solution Marketplace
 This was based off of Ryan Morris, Zachary Babcock, and Taylor Holtzs' Android Application.
 
+<center>
 Simple Digital Solution Marketplace was a mimic to the 'Google Play' store.
 
 This will go over the basics of what the applications functionality is doing.
@@ -12,3 +13,4 @@ This will go over the basics of what the applications functionality is doing.
  - This bridge grabs and sends JSON Objects to and from.
  
 + The website itself, will store High Scores and other personal data from the Games and Utilities portion of the Application.
+</center>
