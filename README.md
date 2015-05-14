@@ -11,4 +11,4 @@ This will go over the basics of what the applications functionality is doing.
 + We've got a Web Service written in C# bridging the Application to the SQL Server Database.
  - This bridge grabs and sends JSON Objects to and from.
  
-+ The website itself, will store High Scores and other personal data from the Games and Utilities another update portion of the Application.
++ The website itself, will store High Scores and other personal data from the Games and Utilities portion of the Application.
