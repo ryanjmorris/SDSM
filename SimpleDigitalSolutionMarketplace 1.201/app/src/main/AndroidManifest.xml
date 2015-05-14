@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ryan.simpledigitalsolutionmarketplace" >
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <uses-sdk
+        android:minSdkVersion="7"
+        android:targetSdkVersion="22" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/sdsm"
+        android:logo="@drawable/sdsm"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivitySDSM"
+            android:label="@string/app_name"
+            android:icon="@drawable/sdsm"
+            android:logo="@drawable/sdsm">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Starts up the activity Login -->
+        <activity
+            android:label="@string/SDSM_Login_ActionBar"
+            android:logo="@drawable/sdsm"
+            android:parentActivityName=".MainActivitySDSM"
+            android:name=".Login" >
+            <!-- This supports lower level API's if we have 14 and under. -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.ryan.simpledigitalsolutionmarketplace.MainActivitySDSM" />
+        </activity>
+
+        <!-- Starts up the activity Sign Up -->
+        <activity
+            android:label="@string/SDSM_SignUp_ActionBar"
+            android:logo="@drawable/sdsm"
+            android:name=".SignUp" >
+        </activity>
+
+        <!-- Starts up the activity Games (list of games on SDSM) -->
+        <activity
+            android:label="@string/SDSM_Games_ActionBar"
+            android:logo="@drawable/sdsm"
+            android:parentActivityName=".MainActivitySDSM"
+            android:name=".Games" >
+            <!-- This supports lower level API's if we have 14 and under. -->
+                <meta-data
+                    android:name="android.support.PARENT_ACTIVITY"
+                    android:value="com.example.ryan.simpledigitalsolutionmarketplace.MainActivitySDSM" />
+        </activity>
+
+        <!-- Starts up the Spalsh page for Cholors -->
+        <activity android:name=".CholorSplash"
+            android:screenOrientation="portrait">
+
+        </activity>
+
+        <!-- Starts up the activity Cholors (Game for Games) -->
+
+        <activity android:name=".Cholors">
+
+        </activity>
+
+        <!-- Starts up the activity Utilities (list of utilities on SDSM) -->
+        <activity
+            android:label="@string/SDSM_Utilities_Header"
+            android:logo="@drawable/sdsm"
+            android:parentActivityName=".MainActivitySDSM"
+            android:name=".Utilities" >
+            <!-- This supports lower level API's if we have 14 and under. -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.ryan.simpledigitalsolutionmarketplace.MainActivitySDSM" />
+        </activity>
+
+        <!-- Starts up the activity ZFlash (flashlight for Utilities) -->
+        <activity android:name=".ZFlash">
+
+        </activity>
+
+        <!-- Starts up the activity ZVibrate (Vibrate for Utilities) -->
+        <activity android:name=".ZVibrator">
+
+        </activity>
+
+        <!-- Starts up the activity Flashlight Splash -->
+        <activity android:name=".FlashlightSplash"
+            android:screenOrientation="portrait">
+
+        </activity>
+
+        <!-- Starts up the activity Flashlight (Flashlight for Utilities) -->
+        <activity android:name=".Flashlight">
+
+        </activity>
+
+        <!-- Starts up the activity Purchase -->
+        <activity android:name=".Purchase">
+
+        </activity>
+
+        <!-- Starts up the user Profile -->
+        <activity android:name=".Profile">
+
+        </activity>
+
+        <!-- Starts up the Copyright -->
+        <activity android:name=".Copyright">
+
+        </activity>
+
+    </application>
+
+</manifest>

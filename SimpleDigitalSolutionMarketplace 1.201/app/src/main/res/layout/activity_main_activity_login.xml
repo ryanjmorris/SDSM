@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#585858"
+    android:id="@+id/outer">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/SDSM_Login"
+        android:id="@+id/LogIn"
+        android:layout_gravity="center_horizontal"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:textColor="#ffffffff"
+        android:layout_marginTop="30dp" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="330dp"
+        android:layout_height="400dp"
+        android:background="#000000"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:focusableInTouchMode="false"
+        android:id="@+id/inner"
+        android:layout_marginBottom="25dp">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/SDSM_Login_User"
+            android:id="@+id/User"
+            android:textColor="#ffffffff"
+            android:textSize="30sp"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/SDMS_Login_Password"
+            android:id="@+id/Password"
+            android:textColor="#ffffffff"
+            android:textSize="30sp"
+            android:layout_marginTop="150dp"
+            android:layout_marginLeft="-145dp" />
+
+        <Button
+            android:layout_width="268dp"
+            android:layout_height="wrap_content"
+            android:text="@string/SDMS_Login_SignUp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="-120dp"
+            android:layout_marginTop="150dp"
+            android:id="@+id/signUp" />
+
+        <Button
+            android:layout_width="268dp"
+            android:layout_height="wrap_content"
+            android:text="Log In"
+            android:id="@+id/btnLogIn"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="-270dp"
+            android:layout_marginTop="50dp" />
+
+        <EditText
+            android:layout_width="150dp"
+            android:layout_height="20dp"
+            android:inputType="textPassword"
+            android:ems="10"
+            android:id="@+id/logPassword"
+            android:background="#ffffffff"
+            android:layout_marginTop="150dp"
+            android:clickable="true"
+            android:layout_marginLeft="-130dp"
+            android:hint="@string/SDMS_Login_Hint_Pass" />
+
+        <EditText
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/logUsername"
+            android:inputType="text"
+            android:clickable="true"
+            android:background="#ffffffff"
+            android:layout_marginTop="50dp"
+            android:hint="@string/SDMS_Login_Hint_User"
+            android:layout_marginLeft="-150dp" />
+
+    </LinearLayout>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ff000000">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#fffbfffb"
+        android:weightSum="1"
+        android:id="@+id/flashSplashBackground">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/flashImage"
+            android:src="@drawable/flash"
+            android:layout_gravity="center"
+            android:layout_marginTop="125dp"
+            android:layout_weight="0.33" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Loading..."
+            android:id="@+id/loadingFlash"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:textSize="28dp" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#585858"
+    android:weightSum="1"
+    android:id="@+id/splashBackground">
+
+    <ImageView
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/cholorImage"
+        android:layout_gravity="center"
+        android:src="@drawable/cholors"
+        android:layout_weight="0.41"
+        android:layout_marginTop="125dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Please Wait..."
+        android:id="@+id/pleaseWait"
+        android:layout_gravity="center"
+        android:textColor="#ff000000"
+        android:textSize="30dp" />
+</LinearLayout>

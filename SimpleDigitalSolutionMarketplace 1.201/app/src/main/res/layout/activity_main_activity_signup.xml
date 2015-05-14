@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#585858"
+    android:weightSum="1"
+    android:id="@+id/outer"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/SDSM_SignUp"
+        android:id="@+id/SignUp"
+        android:layout_gravity="center_horizontal"
+        android:textSize="30sp"
+        android:textColor="#ffffffff"
+        android:layout_marginTop="30dp" />
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:fillViewport="true">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:background="@android:color/black"
+        android:layout_weight="0.38"
+        android:id="@+id/inner"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="15dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/SDSM_SignUp_FName"
+            android:id="@+id/FName"
+            android:textColor="#ffffffff"
+            android:layout_gravity="center"
+            android:textSize="25dp"
+            android:layout_marginTop="15dp" />
+
+        <EditText
+            android:layout_width="225dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/editFName"
+            android:background="#ffffffff"
+            android:layout_gravity="center"
+            android:singleLine="true"
+            android:hint="@string/SDSM_SignUp_Placeholder_FName" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/SDSM_SignUp_LName"
+            android:id="@+id/LName"
+            android:textColor="#ffffffff"
+            android:layout_gravity="center"
+            android:textSize="25sp" />
+
+        <EditText
+            android:layout_width="225dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/editLName"
+            android:background="#ffffffff"
+            android:layout_gravity="center"
+            android:singleLine="true"
+            android:hint="@string/SDSM_SignUp_Placeholder_LName" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/SDSM_SignUp_Username"
+            android:id="@+id/Username"
+            android:textColor="#ffffffff"
+            android:layout_gravity="center"
+            android:textSize="25sp" />
+
+        <EditText
+            android:layout_width="225dp"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/editUsername"
+            android:background="#ffffffff"
+            android:layout_gravity="center"
+            android:singleLine="true"
+            android:hint="@string/SDSM_SignUp_Placeholder_UserName" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/SDSM_SignUp_Email"
+            android:id="@+id/Email"
+            android:textColor="#ffffffff"
+            android:layout_gravity="center"
+            android:textSize="25sp" />
+
+        <EditText
+            android:layout_width="225dp"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:ems="10"
+            android:id="@+id/editEmail"
+            android:background="#ffffffff"
+            android:layout_gravity="center"
+            android:singleLine="true"
+            android:hint="@string/SDSM_SignUp_Placeholder_Email" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/SDSM_SignUp_State"
+            android:id="@+id/State"
+            android:textColor="#ffffffff"
+            android:layout_gravity="center"
+            android:textSize="25sp" />
+
+        <EditText
+            android:layout_width="225dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/editState"
+            android:background="#ffffffff"
+            android:layout_gravity="center"
+            android:singleLine="true"
+            android:hint="@string/SDSM_SignUp_Placeholder_State" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/SDSM_SignUp_Password"
+            android:id="@+id/Password"
+            android:textColor="#ffffffff"
+            android:layout_gravity="center"
+            android:textSize="25sp" />
+
+        <EditText
+            android:layout_width="225dp"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:ems="10"
+            android:id="@+id/editPassword"
+            android:background="#ffffffff"
+            android:layout_gravity="center"
+            android:singleLine="true"
+            android:hint="@string/SDSM_SignUp_Placeholder_Password" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/SDSM_SignUp_RePassword"
+            android:id="@+id/RePassword"
+            android:textColor="#ffffffff"
+            android:layout_gravity="center"
+            android:textSize="25sp" />
+
+        <EditText
+            android:layout_width="225dp"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:ems="10"
+            android:id="@+id/editRePassword"
+            android:background="#ffffffff"
+            android:layout_gravity="center"
+            android:singleLine="true"
+            android:layout_marginBottom="10dp"
+            android:hint="@string/SDSM_SignUp_Placeholder_RePassword" />
+
+        <Button
+            android:layout_width="228dp"
+            android:layout_height="wrap_content"
+            android:text="@string/SDSM_SignUp_Submit"
+            android:id="@+id/submitBtn"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="5dp"
+            android:background="#d28c8c8c"
+            android:layout_marginBottom="15dp" />
+    </LinearLayout>
+    </ScrollView>
+</LinearLayout>
